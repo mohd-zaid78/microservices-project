@@ -1,0 +1,17 @@
+server:
+  port: 9002
+  servlet:
+    context-path: /user
+
+
+
+spring:
+  application:
+    name: user
+
+#==========configuration for zipkin server============    
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+     
